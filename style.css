@@ -1,32 +1,63 @@
-/*ul{
+
+body{
+    margin: 0px; 
+    background-color: #faebd7;
+}
+
+/* Header section*/ 
+nav{
     display: flex;
-    list-style: none;
-    padding: 15px;  
+    justify-content: space-between;
+    width: 500px;
 }
-.end{
-    text-align: right;
-}*/
-#navigation ul {
-    display: flex; /* Use Flexbox for alignment */
-    list-style: none; /* Remove default bullet points */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-    justify-content: space-between; /* Distribute items with space in between */
-    align-items: flex-start; /* Align items vertically */
-    padding: 0px 375px;
-    background-color: rgb(26, 26, 46);
-    color: white;
-    height: 100px;      
+header{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: blue;
+    align-items: center;
 }
 
-#navigation li:first-child {
-    margin-right: auto; /* Push the first item to the left */
+/* First section*/ 
+#section1{
+    background-color: green;
+    height: 550px;    
+    padding-left: 150px;  
+    padding-top: 90px;
+}
+#dest{
+    margin: 0;
+    font-size: 55px;
+    width: 600px;    
+}
+#nos{
+    font-size: 20px;
+    width: 600px;
+    padding-bottom: 25px;
+}
+button{
+    width: 100px;
+    height: 35px;
+    background-color: red;
+    border: 0px;
+    border-radius: 7.5px;
 }
 
-#navigation li:not(:first-child) {
-    margin-left: 20px; /* Add space between the last two items */
+/* second section*/ 
+
+#section2{
+    background-color: gray;
+    height: 550px;
+    padding-top: 60px;
+    text-align: center;
 }
-#navigation li{
-    padding-top: 25px;
+#decouvrez{
+    margin: 0;
+    
 }
+
+
+
+
+
 
