@@ -1,7 +1,6 @@
 
 body{
-    margin: 0px; 
-    background-color: #faebd7;
+    margin: 0px;     
 }
 
 /* Header section*/ 
@@ -16,24 +15,26 @@ header{
     height: 50px;
     background-color: blue;
     align-items: center;
+    width: 100%;
 }
 
 /* First section*/ 
 #section1{
     background-color: green;
-    height: 550px;    
-    padding-left: 150px;  
+    height: 700px;    
+    padding-left: 10%;  
     padding-top: 90px;
 }
 #dest{
     margin: 0;
-    font-size: 55px;
-    width: 600px;    
+    font-size: 70px;
+    width: 750px;    
 }
 #nos{
-    font-size: 20px;
-    width: 600px;
+    font-size: 30px;
+    width: 750px;
     padding-bottom: 25px;
+
 }
 button{
     width: 100px;
@@ -41,19 +42,42 @@ button{
     background-color: red;
     border: 0px;
     border-radius: 7.5px;
+    margin-top: 15px;
 }
 
 /* second section*/ 
 
 #section2{
     background-color: gray;
-    height: 550px;
-    padding-top: 60px;
-    text-align: center;
+    height: 950px;
+    padding-top: 40px;
 }
 #decouvrez{
-    margin: 0;
-    
+    margin-bottom: 50px;
+    margin-top: 30px;
+    font-size: 25px;
+    background-color: aqua;
+    width: 400px;
+    text-align: center;        
+}
+#decouvrez1{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.secdiv{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 50px;
+}
+.subdiv1{
+    width: 350px;
+    height: 350px;
+    background-color: azure;
+    text-align: center;
 }
 
 
