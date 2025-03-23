@@ -8,7 +8,7 @@ body{
 #menunav{
     display: flex;
     justify-content: space-between;
-    width: 500px;      
+    width: 600px;      
 }
 header{
     display: flex;
@@ -87,7 +87,7 @@ button:hover{
 
 #services{
     background-color: #070c25;
-    height: 790px;
+    height: 850px;
     padding-top: 40px;
 }
 #service{
@@ -121,7 +121,7 @@ button:hover{
     justify-content: space-between;
     padding-left: 4%;
     padding-right: 4%;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 .boxdiv{
     width: 350px;
@@ -135,15 +135,118 @@ button:hover{
     display: flex;
     justify-content: space-evenly;
 }
-.minilogo{
-    
-    height: 65px;
-    
+.minilogo{    
+    height: 65px;    
+}
+.button2{
+    width: 200px;
+    background-color: white;
+    color: #070c25;
+}
+.button2:hover{
+    text-decoration: underline;
+    background-color: white;
+}
+#buttondiv{
+    display: flex;
+    justify-content: center;
 }
 
+/* third section*/ 
 
+#section3{
+    height: 850px;
+}
+#topdiv{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    
+}
+#whyus{        
+    width: 230px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #070c25;
+    font-weight: 600;    
+}
+#maindiv3{
+    height: 650px;      
+}
+#seperationdiv{
+    display: flex;
+    justify-content: space-evenly;    
+}
+.subdiv3{
+    width: 700px;
+    height: 650px;       
+}
+h3{
+    font-size: 45px;
+    font-weight: 350px;
+}
+li{
+    font-size: 20px;
+    line-height: 50px;
+}
+.listitem{
+    list-style: none;    
+}
+#specificheader2{
+    margin-top: 0;
+}
+.slideshow {
+    position: relative;
+    width: 700px; 
+    height: 650px; 
+    overflow: hidden; 
+}
+.slideshow img {
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    opacity: 0; 
+    animation: changeImage 9s infinite; 
+  }
+  
+  .slideshow img:nth-child(1) {
+    animation-delay: 0s; 
+  }
+  
+  .slideshow img:nth-child(2) {
+    animation-delay: 3s; 
+  }
+  
+  .slideshow img:nth-child(3) {
+    animation-delay: 6s; 
+  }
+  .slideshow img:nth-child(4) {
+    animation-delay: 9s; 
+  }
+  .slideshow img:nth-child(5) {
+    animation-delay: 12s; 
+  }
+  .slideshow img:nth-child(6) {
+    animation-delay: 15s; 
+  }
+  .slideshow img:nth-child(7) {
+    animation-delay: 18s; 
+  }
+  .slideshow img:nth-child(8) {
+    animation-delay: 21s; 
+  }  
 
+  @keyframes changeImage {
+    0% { opacity: 1; } 
+    33.33% { opacity: 1; } 
+    33.34% { opacity: 0; } /* Hide the image */
+    100% { opacity: 0; } /* Keep it hidden */
+  }
 
-
+  /* Fourth section*/ 
+  #section4{
+    height: 850px;
+    background-color: #2a3e81;
+  }
 
 
