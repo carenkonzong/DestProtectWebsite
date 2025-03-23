@@ -9,9 +9,15 @@
 <body>
   <!-- **********************************header section*******************************-->
   <header>
-    <nav>
+    <nav id="logonav">
+      <a href="index.html"><img id="logo" src="images/logo.png" width="65"></a>
+    </nav>
+    <nav class="brandname">
+      <a id="name" href="index.html">DEST PROTECT </a>
+    </nav>
+    <nav id="menunav">
       <a>Accueil</a>
-      <a>Service</a>
+      <a href="#services" class="links">Services</a>
       <a>Equipe</a>
       <a>Formulaire</a>
     </nav>
@@ -23,14 +29,21 @@
       <h1 id="dest">Vos experts intégrateur de solutions de sécurité et informatique.</h1>
     </div>
     <div>
-      <p id="nos">Nous offrons une gamme complète de services allant de l'installation de plaques solaires, systèmes back-up, réseaux et maintenance, à la vente de consommables et dispositifs de sécurité. </p>
+      <p id="nous-offrons">Nous offrons une gamme complète de services allant de l'installation de plaques solaires, systèmes back-up, réseaux et maintenance, à la vente de consommables et dispositifs de sécurité. </p>
     </div>
-    <h2>Nos Caméras, vos Yeux | Notre Expertise, votre Sécurité</h1>
-    <button>Reservez</button>
+    <h2 id="nos-cameras">Nos Caméras, vos Yeux | Notre Expertise, votre Sécurité</h1>
+    <a href="#reservez">
+      <button class="links">Reservez</button>
+    </a>
   </section>
 
   <!-- *******************************Second section***********************************-->
-  <section id="section2">
+  <section id="services">      
+    <div id="service1">
+      <div id="service">
+        Services
+      </div>
+    </div>
     <div id="decouvrez1">
       <div id="decouvrez">
         Découvrez notre gamme complète de services professionnels.
@@ -38,31 +51,95 @@
     </div>
     <div id="maindiv">
       <div class="secdiv">
-        <div class="subdiv1">
-          Vidéo surveillance 🎥
+        <div class="boxdiv">
+          <div class="minilogodiv">
+            <div class="minilogo">
+              <img src="images/minicam2.png" width="65">
+            </div>
+          </div>
+          <div>Vidéo surveillance</div>
+          <br>
+          <div>Protégez votre espace avec nos systèmes de vidéosurveillance. Une installation rapide, du matériel fiable, et une sécurité optimale pour votre tranquillité d'esprit.</div>
         </div>
-        <div class="subdiv1">
-          Central alarmes anti-intrusion et incendie 🚨
+        <div class="boxdiv">
+          <div class="minilogodiv">
+            <div class="minilogo">
+              <img src="images/minifire.png" width="65">
+            </div>
+          </div>
+          <div>Central alarmes anti-intrusion et incendie</div>
+        <br>
+          <div>Sécurisez votre bâtiment avec notre solution complète. Nos systèmes d'alarme détectent les intrusions et les incendies, vous offrant une protection efficace 24h/24.</div>
+        </div>        
+        <div class="boxdiv">
+          <div class="minilogodiv">
+            <div class="minilogo">
+              <img src="images/miniaccess.png" width="65">
+            </div>
+          </div>
+          <div>Contrôle d'accès</div>
+          <br>
+          <div>Gérez et sécurisez l'accès à vos locaux grâce à nos solutions performantes. Protégez vos espaces avec des systèmes fiables et faciles à utiliser.</div>
         </div>
-        <div class="subdiv1">
-          Contrôle d'accès 🔑
-        </div>
-        <div class="subdiv1">
-          Réseaux et maintenance informatique, wifi et internet 🖥️
+        <div class="boxdiv">
+          <div class="minilogodiv">
+            <div class="minilogo">
+              <img src="images/mininetwork.png" width="65">
+            </div>
+          </div>
+          <div>Réseaux et maintenance informatique, wifi et internet</div>
+          <br>
+          <div>Assurez la performance de vos systèmes avec nos services de maintenance informatique. Nous optimisons et sécurisons vos réseaux, Wi-Fi et solutions Internet pour une fiabilité maximale.</div>
         </div>
       </div>
       <div class="secdiv">
-        <div class="subdiv1">
-          Téléphonie d'entreprise 📞
+        <div class="boxdiv">
+          <div class="minilogodiv">
+            <div class="minilogo">
+              <img src="images/miniphone.png" width="65">
+            </div>
+          </div>
+          <div>Téléphonie d'entreprise </div>
+          <br>
+          <div>
+            Simplifiez vos communications avec nos solutions de téléphonie d'entreprise. Performantes et adaptées, elles répondent à tous vos besoins professionnels.
+          </div>
         </div>
-        <div class="subdiv1">
-          Motorisation des portails ⚙️
+        <div class="boxdiv">
+          <div class="minilogodiv">
+            <div class="minilogo">
+              <img src="images/minigate.png" width="65">
+            </div>
+          </div>
+          <div>Motorisation des portails</div>
+          <br>
+          <div>
+            Automatisez vos portails avec nos solutions fiables et performantes. Bénéficiez de confort, sécurité et facilité d’utilisation au quotidien.
+          </div>
         </div>
-        <div class="subdiv1">
-          Installation système d'énergie solaire et back-up ☀️🔋
+        <div class="boxdiv">
+          <div class="minilogodiv">
+            <div class="minilogo">
+              <img src="images/minisolar.png" width="65">
+            </div>
+          </div>
+          <div>Installation système d'énergie solaire et back-up</div>
+          <br>
+          <div>
+            Optez pour l'énergie durable grâce à nos systèmes solaires. Bénéficiez d'une installation fiable et d'un back-up performant pour une autonomie maximale.
+          </div>
         </div>
-        <div class="subdiv1">
-          Vente de matériel et consommables 🛒
+        <div class="boxdiv">
+          <div class="minilogodiv">
+            <div class="minilogo">
+              <img src="images/minicards.png" width="65">
+            </div>
+          </div>
+          <div>Vente de matériel et consommables</div>
+          <br>
+          <div>
+            Trouvez tout ce dont vous avez besoin avec notre large gamme de matériel et consommables de qualité. Fiabilité et performance garanties.
+          </div>
         </div>
       </div>
     </div>
